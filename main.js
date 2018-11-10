@@ -7,7 +7,7 @@ var search_param = {
 	'q': 'Kantipur samachar',
 	'type': 'video',
 	'videoDuration': 'short',
-	'key': 'replace with yours'
+	'key': 'replace with yours youtube key'
 };
 
 $(function () {
@@ -105,4 +105,4 @@ $(function () {
 			obj.select_change();
 		}
 	}.init();;
-//});
+});
