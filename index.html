@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Kantipur News</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body id="top">
+	<section id="banner" data-video="images/banner">
+		<div class="inner">
+			<header>
+				<h1>Kantipur News</h1>
+				<p>Get top news of  
+				<b><span id="get_day"></span></b>
+				<br>
+				-- OR --
+				</p>
+				<p>					
+				<select name="day" id="day">
+					<option value="">Select here</option>
+					<option value="yesterday">Yesterday</option>
+					<option value="lastweek">Last week</option>
+				</select>
+				</p>
+				<p>
+					<div id="result-count">No result found, please visit later!</div>					
+				</p>
+			</header>
+		</div>
+	</section>
+
+	<!-- Main -->
+	<div id="main">
+		<div class="inner">
+
+			<!-- Boxes -->
+			<div class="thumbnails" id="result">
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			2018 
+			<h2>Ramesh Gurung</h2>
+			<ul class="icons">
+				<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+				<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+				<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+			</ul>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="main.js"></script>
+
+	<style>
+		.box .image iframe {
+			height: 150%;
+		    border-radius: 4px;
+		}
+
+		#day option{
+			color: white;
+			background-color: grey;
+		}
+		#banner{
+			padding: 0;
+		    min-height: 40vh;
+		}
+		#banner h1 {
+		    font-size: 3em;
+		}
+	</style>
+
+</body>
+</html>
