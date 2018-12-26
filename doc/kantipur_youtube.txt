@@ -1,0 +1,4 @@
+api doc links
+
+todo
+	build apk using phonegap
